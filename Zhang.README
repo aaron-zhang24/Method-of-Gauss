@@ -1,0 +1,16 @@
+Notes for the Reader:
+
+Input File:
+When downloading the MoG folder, the ZhangInput.txt is the one that should be run in order 
+to calculate the orbital elements corresponding to the output in the test case output for the OD corresponding 
+code. MonteCarlo.txt is the input file that should be used in order to calculate the orbital elements of our
+asteroid using three observations. Two of the observations are our own, with the observations on 7/08 and 7/14
+coming from ONL 7. To change the input file, simply copy the relative path of the input file you want to use and
+paste it into the quotations on line 17. 
+
+User Input: 
+If there are more than three observations, the user is asked to choose three of them from observation 1 to 4. 
+There is also user input for when there is more than one positive root. It is important to know that for the OC
+test case input, only index 0 works because indices 1 and 2 for rho2 are negative. 
+
+
